@@ -35,3 +35,15 @@ url which i jhave forked is called upstream url we can connect to upstream by be
 -git reset --hard upstream/main ( to sync the main of forked from upstream)
 -git pull upstream main -> to pull the forked repo orginal commits or approved merges
 -git push upstream main -> to sync the upstream main from puslled local
+
+
+
+- git add .; git commit -m "test" workable
+
+
+Git Squashing
+For ex git have mulitiple add and commits and everything has to be squased under one push
+use git log
+get the very first commit which is before all your commits which has to be considered for push
+-git rebase -i <hashcode>  -> here i stands for interactive mode
+
