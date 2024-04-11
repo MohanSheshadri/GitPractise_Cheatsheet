@@ -21,3 +21,15 @@ git commit
 git merge <branchname> -> merging new branch commits to main/master branch
 
 
+-Fork the community/organisation repo to your accound
+-git clone <oraganisation repo url> in cmd to work in local
+url which i jhave forked is called upstream url we can connect to upstream by below cmd
+-git remote add upstream <forking repo url>
+-git remote -v (to see all origin and upstream repos)
+
+
+
+-git create brnch <branch name> ->and procced to chnages.
+- git add and git commit -m to branch name < as pull requests has to be made from respective branches to avoid multi nerging>
+-git checkout origin
+-git reset --hard upstream/main ( to sync the main of forked from upstream)
