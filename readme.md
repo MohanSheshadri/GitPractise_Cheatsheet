@@ -47,3 +47,4 @@ use git log
 get the very first commit which is before all your commits which has to be considered for push
 -git rebase -i <hashcode>  -> here i stands for interactive mode
 
+Else pick the first which has to be committed and reset untill ther and have that as staging and commit and push once
