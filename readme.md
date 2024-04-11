@@ -33,3 +33,4 @@ url which i jhave forked is called upstream url we can connect to upstream by be
 - git add and git commit -m to branch name < as pull requests has to be made from respective branches to avoid multi nerging>
 -git checkout origin
 -git reset --hard upstream/main ( to sync the main of forked from upstream)
+-git pull upstream main -> to pull the forked repo orginal commits or approved merges
