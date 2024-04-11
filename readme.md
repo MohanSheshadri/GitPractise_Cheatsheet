@@ -12,5 +12,6 @@ git stash -> to get all the docs which are committed (to get clean copy with cur
 git stash clear -> to clear the back staged stahsh files.
 git stash pop -> to pull the back staged files
 
+git branch <branchname> -> to add a branch 
 
 
